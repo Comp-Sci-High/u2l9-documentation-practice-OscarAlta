@@ -38,4 +38,5 @@ async function fetchPictures(requestURL) {
 }
 
 // CALL your function here
-fetchPictures()
+let nasaApiKey = "9YEaHVaP15YidrQiee6ABWkW6BUbObR71Ab4Wfea"
+fetchPictures("https://api.nasa.gov/planetary/apod?api_key=9YEaHVaP15YidrQiee6ABWkW6BUbObR71Ab4Wfea")
