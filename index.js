@@ -7,7 +7,9 @@
 async function fetchAstronauts(requestURL) {
 let response = await fetch(requestURL)
 let data = await response.json()
+console.log(data.people.length)
 console.log(data.people[7].name) 
+
 }
 
 // CALL your function here
